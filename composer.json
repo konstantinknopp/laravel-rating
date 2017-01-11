@@ -1,0 +1,28 @@
+{
+	"name": "unikat/laravel-rating",
+	"description": "Model rating system for laravel to be used with cartalyst/sentinel",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Konstantin Knopp",
+			"email": "k.knopp@das-unikat.com"
+		}
+	],
+	"minimum-stability": "stable",
+	"require": {
+		"php": ">=5.6",
+		"illuminate/support": "~5.0",
+		"illuminate/database": "~5.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "~4.0"
+	},
+	"autoload": {
+		"classmap": [
+			"src/commands"
+		],
+		"psr-4": {
+			"Unikat\\LaravelRating\\": "src/Rating"
+		}
+	}
+}
